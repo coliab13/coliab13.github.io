@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>May Profail - Nicolae C.</title>
+    <link rel="icon" href="img/icon.ico">
+    <style>
+    body{
+        background-color: #999999;
+        margin: 5%;
+    }
+    #content{
+        /* background-color: #fff; */
+    }
+    .col-left{
+        background-color: #444;
+        float: left;
+        padding: 40px;
+        color:#fff;
+         margin-right: 3%; 
+         border-right: 10px solid black;
+    }
+    h1{
+        border-top: 5px solid black;
+        padding-top:5px; 
+        margin-bottom: 2px;
+    }
+    h3{
+        margin-top: 0px;
+    }
+    .col-right{
+        background-color: #333;
+        padding: 40px;
+    }
+    ul{
+        list-style: none;
+        margin-bottom: 50px;
+    }
+    a{
+        color: #fff;
+    }
+    .col-left, .col-right{
+height: 500px;
+    }
+    a:hover{
+        color: green;
+    }
+    .avatar{
+
+        border-radius: 50%;
+        border: 5px solid white;
+        animation: rot 0.5s;
+    }
+    @keyframes rot {
+        from{transform:translateX(-1000px) rotate(0deg);}
+        to{transform: translateX(0px) rotate(720deg);}
+    }
+    .call{
+        background-color: blue;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        animation: pulse 0.5s 3;
+        animation-delay: 1s;
+    }
+    @keyframes pulse {
+        from{background-color:blue;}
+        to{background-color:blueviolet;}
+    }
+    </style>
+</head>
+<body>
+    <main id="content">
+        <div class="col-left"><img class="avatar" src="img/avatar.png" alt="Nico" width="250"></a>
+        <h1>Nicolae C.</h1>
+        <h3>Junior Devloper</h3>
+        </div>
+        <div class="col-right"><h2>May Progect</h2>
+        <ul>
+            <li><a href="https://github.com/coliab13/input-">May menu CSS</a></li>
+            <li><a href="">Search Bar with css</a></li>
+            <li><a href=""> Smile in CSS</a></li>
+        </ul>
+    <a class="call" href="tel:+123456789">Call me : 123456789</a>
+    
+    </div>
+    
+    </main>
+</body>
+</html>
